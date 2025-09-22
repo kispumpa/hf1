@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
 
     <title>Webpage</title>
 </head>
 <body>
     <div id="webpage">
 	    <div id="navigation">
-            <a href="#default" class="bi bi-house-door"> Home</a>
+            <a href="#default"><i class="bi bi-house-door"></i> Home</a>
             <a href="#default" class="bi bi-envelope"> Contact</a>
             <a href="#default" class="bi bi-music-note-beamed"> Products</a>
             <a href="#default" class="bi bi-cart4"> Cart</a>
@@ -19,7 +20,22 @@
             <a href="#default" class="bi bi-person-plus"> Sign up</a>
         </div>
 	    <div id="page">page</div>
-	    <div id="hero">hero</div>
+        
+	    <div id="hero" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="https://media.gettyimages.com/id/641437807/photo/concert-stage.jpg?s=612x612&w=0&k=20&c=cHmb3B4RGeHvZC_MfdQH3duzXpa7PaxXvgVMRoRBFl0=" alt="instruments">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Sound creates mood, mood creates harmony.</h2>
+                        <p>Discover the best instruments!</p>
+                        <a href="pages/products.html" class="btn btn-primary">Go to products</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
 	    <div id="footer">footer</div>
 	    <div id="telEmail">telEmail</div>
 	    <div id="copyright">copyright</div>
