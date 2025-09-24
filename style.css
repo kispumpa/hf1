@@ -17,18 +17,25 @@ body {
 #navigation {
 	grid-area: 1 / 1 / 2 / 7;
 	background-color: gray;
+	align-content: center;
 }
 #navigation a {
-    color: black;
-
-    padding: 14px 16px;
-    text-decoration: none;
+	background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+	color: white !important;
+    display: inline-block;
     font-size: 17px;
+    font-weight: 500;
+    padding: 8px 16px !important;
+    margin: 0 4px;
+    transition: all 0.3s ease;
 
 }
 #navigation a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: white;
+	color: black !important;
+    transform: translateY(-1px);
 }
 #navigation a:active {
     background-color: #04AA6D;
@@ -66,4 +73,25 @@ body {
 #content {
 	grid-area: 3 / 3 / 6 / 7;
 	background-color: rgba(60,102,135, 0.5);
+}
+
+
+
+.btn-login-nav {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 8px !important;
+    color: white !important;
+	display: inline-block;
+    font-weight: 500;
+    font-size: 17px;
+	padding: 8px 16px !important;
+	margin: 0 4px;
+    transition: all 0.3s ease;
+}
+
+.btn-login-nav:hover {
+    background-color: white !important;
+    color: black !important;
+    transform: translateY(-1px)!important;	
 }
