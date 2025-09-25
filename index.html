@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
-    <title>Webpage</title>
+    <title>MusicShop</title>
 </head>
 <body>
     <div id="container">
@@ -37,9 +38,10 @@
                 </li>
             </ul>        
         </div>
+
         <div id="page">
             <!--hero section-->
-            <div id="hero" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active fullscreen-bg">
                         <div class="carousel-caption d-none d-md-block heroText">
@@ -52,9 +54,10 @@
             </div>
 
             <div class="row g-0">
-                <div class="col-md-4 sidebar p-3">
+                <!--sidebar-->
+                <div class="col-md-4 p-3">
                     <div class="instruments-list">
-                        <h3 class="list-header">Eheti tudásbővítő: Népi hangszerek</h3>
+                        <h3 class="list-header">This week's knowledge booster: <br> Folk instruments</h3>
 
                         <div class="instrument-item">
                             <a href="https://en.wikipedia.org/wiki/Zither" target="_blank" >
@@ -63,7 +66,7 @@
                             </a>
                         </div>
 
-                        <div class="instrument-item">
+                        <div class="instrument-item shadow-hover">
                             <a href="https://en.wikipedia.org/wiki/Duda_(bagpipe)" target="_blank">
                                 Duda (bagpipe)
                                 <span class="external-icon">↗</span>
@@ -110,7 +113,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-8 content p-3">
+
+                <!--content-->
+                <div class="col-md-8 p-3" >
                     <header>
                         <h1>Premium Musical Instruments</h1>
                         <p class="tagline">Where quality meets passion.</p>
